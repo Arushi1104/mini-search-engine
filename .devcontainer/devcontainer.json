@@ -1,6 +1,17 @@
 {
   "name": "Mini Search Engine",
   "image": "mcr.microsoft.com/devcontainers/cpp:latest",
-  "postCreateCommand": "g++ -std=c++17 main.cpp -o search",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.startupEditor": "none",
+        "markdown.preview.openMarkdownLinks": "inPreview"
+      }
+    }
+  },
+
+  "postCreateCommand": "g++ -std=c++17 main.cpp -o search && code README.md --command markdown.showPreview && code try_it_instantly.md --command markdown.showPreview",
+
   "forwardPorts": []
 }
