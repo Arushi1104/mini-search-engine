@@ -9,7 +9,18 @@
 This project simulates the core components of a real-world search engine in a simplified environment. It indexes a collection of documents and enables efficient querying with intelligent ranking and suggestions.
 
 ---
+## ▶️ Try it instantly (no install needed)
 
+1. Click the green **Code** button on this repo
+2. Click **Codespaces** tab
+3. Click **Create codespace on main**
+4. Wait ~30 seconds for it to load
+5. In the terminal type:
+```bash
+   ./search
+```
+6. Then start searching!
+---
 ## ✨ Features
 
 ### 🔢 TF-IDF Ranking
