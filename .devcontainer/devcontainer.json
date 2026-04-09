@@ -1,0 +1,6 @@
+{
+  "name": "Mini Search Engine",
+  "image": "mcr.microsoft.com/devcontainers/cpp:latest",
+  "postCreateCommand": "g++ -std=c++17 main.cpp -o search",
+  "forwardPorts": []
+}
