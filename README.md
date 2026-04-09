@@ -9,7 +9,7 @@
 This project simulates the core components of a real-world search engine in a simplified environment. It indexes a collection of documents and enables efficient querying with intelligent ranking and suggestions.
 
 ---
-## ▶️ Try it instantly (no install needed)
+## [▶️ Try it instantly (no install needed)](try_it_instantly.md)
 
 1. Click the green **Code** button on this repo
 2. Click **Codespaces** tab
@@ -20,6 +20,7 @@ This project simulates the core components of a real-world search engine in a si
    ./search
 ```
 6. Then start searching!
+   (eg: egypt, [for more](try_it_instantly.md) )
 ---
 ## ✨ Features
 
