@@ -1,14 +1,6 @@
 {
   "name": "Mini Search Engine",
   "image": "mcr.microsoft.com/devcontainers/cpp:latest",
-  "postCreateCommand": "g++ -std=c++17 main.cpp -o search && echo '\n✅ Compiled successfully! Type ./search to start.' ",
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
-      },
-      "extensions": []
-    }
-  },
-  "postAttachCommand": "cat try_it_instantly.md"
+  "postCreateCommand": "g++ -std=c++17 main.cpp -o search",
+  "forwardPorts": []
 }
